@@ -1,0 +1,7 @@
+import sys
+from datetime import datetime
+
+print("✅ Python dev test script is running")
+print("Python version:", sys.version)
+print("Current time:", datetime.utcnow().isoformat(), "UTC")
+print("All good 👍")
